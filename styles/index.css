@@ -34,7 +34,7 @@
     border-radius: 50px;
     background: linear-gradient(-135deg, #4158d8, #c850c0);
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     transition: all 0.3s ease; 
 
@@ -104,3 +104,11 @@ input{
     text-align: center;
     
 }
+@media screen and (max-height: 450px) {
+    .wrapper ul li a {font-size: 20px}
+    .menu-btn {
+    font-size: 20px;
+    top: 15px;
+    right: 15px;
+    }
+  }
