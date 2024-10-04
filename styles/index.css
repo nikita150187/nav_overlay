@@ -70,6 +70,7 @@
     line-height: 50px;
     transition: all 0.3s ease;
     margin-top: 50px;
+    
 }
 .wrapper ul li a:after{
     content: "";
@@ -92,4 +93,14 @@
 }
 input{
     display: none;
+}
+ p{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-items: center;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+    
 }
